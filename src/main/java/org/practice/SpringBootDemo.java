@@ -1,4 +1,4 @@
-package org.example.main;
+package org.practice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,12 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringBootDemo {
 
     public static void main(String[] args) {
-        try{
-            SpringApplication.run(SpringBootDemo.class);
-        }
-        catch(Exception e){
-            e.printStackTrace();
-        }
-
+        SpringApplication.run(SpringBootDemo.class, args);
     }
 }

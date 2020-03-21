@@ -1,12 +1,12 @@
-package org.example.main;
+package org.practice.main;
 
 public class Student {
 
     private String name;
-    private String id;
+    private Integer id;
     private String dob;
 
-    public Student(String name, String id, String dob) {
+    public Student(String name, Integer id, String dob) {
         this.name = name;
         this.id = id;
         this.dob = dob;
@@ -20,11 +20,11 @@ public class Student {
         this.name = name;
     }
 
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
