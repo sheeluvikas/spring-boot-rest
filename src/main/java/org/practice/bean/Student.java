@@ -1,4 +1,4 @@
-package org.practice.main;
+package org.practice.bean;
 
 public class Student {
 
