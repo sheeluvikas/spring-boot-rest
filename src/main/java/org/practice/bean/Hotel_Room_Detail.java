@@ -5,6 +5,15 @@ public class Hotel_Room_Detail {
     private int hotelId;
     private String roomNumber;
     private int capacity;
+    private int status;
+
+    public int getStatus() {
+        return status;
+    }
+
+    public void setStatus(int status) {
+        this.status = status;
+    }
 
     public int getHotelId() {
         return hotelId;
